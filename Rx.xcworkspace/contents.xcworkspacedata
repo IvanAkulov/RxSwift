@@ -13,6 +13,9 @@
    <FileRef
       location = "group:CHANGELOG.md">
    </FileRef>
+   <FileRef
+      location = "group:DescribeOperators.playground">
+   </FileRef>
    <Group
       location = "container:"
       name = "Podspecs">

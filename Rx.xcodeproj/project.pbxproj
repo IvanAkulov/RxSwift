@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2224E95D1CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224E95C1CBD9E8E00E91377 /* HelpfulFunctions.swift */; };
+		2224E95E1CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224E95C1CBD9E8E00E91377 /* HelpfulFunctions.swift */; };
+		2224E95F1CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224E95C1CBD9E8E00E91377 /* HelpfulFunctions.swift */; };
+		2224E9601CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224E95C1CBD9E8E00E91377 /* HelpfulFunctions.swift */; };
 		79E9DE891C3417FD009970AF /* DispatchQueueSchedulerQOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9DE881C3417FD009970AF /* DispatchQueueSchedulerQOS.swift */; };
 		79E9DE8A1C3417FD009970AF /* DispatchQueueSchedulerQOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9DE881C3417FD009970AF /* DispatchQueueSchedulerQOS.swift */; };
 		79E9DE8B1C3417FD009970AF /* DispatchQueueSchedulerQOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9DE881C3417FD009970AF /* DispatchQueueSchedulerQOS.swift */; };
@@ -1335,6 +1339,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2224E95C1CBD9E8E00E91377 /* HelpfulFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpfulFunctions.swift; sourceTree = "<group>"; };
 		79E9DE881C3417FD009970AF /* DispatchQueueSchedulerQOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueSchedulerQOS.swift; sourceTree = "<group>"; };
 		7EDBAEAB1C89B1A5006CBE67 /* UITabBarItem+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+RxTests.swift"; sourceTree = "<group>"; };
 		7EDBAEB71C89B9B7006CBE67 /* UITabBarItem+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Rx.swift"; sourceTree = "<group>"; };
@@ -1843,6 +1848,7 @@
 		C8093C471B8A72BE0088E94D /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2224E95C1CBD9E8E00E91377 /* HelpfulFunctions.swift */,
 				C8093C661B8A72BE0088E94D /* Info.plist */,
 				C8093C491B8A72BE0088E94D /* Cancelable.swift */,
 				C8093C4D1B8A72BE0088E94D /* ConnectableObservableType.swift */,
@@ -3667,6 +3673,7 @@
 				C8093D3A1B8A72BE0088E94D /* Sink.swift in Sources */,
 				C8093D461B8A72BE0088E94D /* TakeUntil.swift in Sources */,
 				C8093D941B8A72BE0088E94D /* MainScheduler.swift in Sources */,
+				2224E95E1CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */,
 				CB883B461BE256D4000AC2EE /* BooleanDisposable.swift in Sources */,
 				C84B38EF1BA433CD001B7D88 /* Generate.swift in Sources */,
 				C8093D161B8A72BE0088E94D /* Deferred.swift in Sources */,
@@ -3889,6 +3896,7 @@
 				C8093D451B8A72BE0088E94D /* TakeUntil.swift in Sources */,
 				C8093D931B8A72BE0088E94D /* MainScheduler.swift in Sources */,
 				CB883B451BE256D4000AC2EE /* BooleanDisposable.swift in Sources */,
+				2224E95D1CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */,
 				C84B38EE1BA433CD001B7D88 /* Generate.swift in Sources */,
 				C8093D151B8A72BE0088E94D /* Deferred.swift in Sources */,
 				C8093DA31B8A72BE0088E94D /* ReplaySubject.swift in Sources */,
@@ -4035,6 +4043,7 @@
 				C8F0BFA11BBBFB8B001B112F /* Sink.swift in Sources */,
 				C8F0BFA21BBBFB8B001B112F /* TakeUntil.swift in Sources */,
 				C8F0BFA31BBBFB8B001B112F /* MainScheduler.swift in Sources */,
+				2224E9601CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */,
 				CB883B481BE256D4000AC2EE /* BooleanDisposable.swift in Sources */,
 				C8F0BFA41BBBFB8B001B112F /* Generate.swift in Sources */,
 				C8F0BFA51BBBFB8B001B112F /* Deferred.swift in Sources */,
@@ -4361,6 +4370,7 @@
 				D2EBEB331BB9B6CA003A27DC /* Observable+Time.swift in Sources */,
 				D2EBEB191BB9B6C1003A27DC /* Reduce.swift in Sources */,
 				CB883B471BE256D4000AC2EE /* BooleanDisposable.swift in Sources */,
+				2224E95F1CBD9E8E00E91377 /* HelpfulFunctions.swift in Sources */,
 				D2EBEB001BB9B6BA003A27DC /* Catch.swift in Sources */,
 				D2EBEB161BB9B6C1003A27DC /* ObserveOnSerialDispatchQueue.swift in Sources */,
 				D2EBEB061BB9B6C1003A27DC /* Debug.swift in Sources */,
