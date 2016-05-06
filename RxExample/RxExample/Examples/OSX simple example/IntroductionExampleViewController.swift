@@ -76,5 +76,18 @@ class IntroductionExampleViewController : ViewController {
                 self?.disposeBag = DisposeBag()
             }
             .addDisposableTo(disposeBag)
+//          uncomment code to see UI error
+//
+//        disposeButton.rx_tap.debug("rx_tap")
+//            .flatMap{ value in
+//                return Observable<String>.create{ observer in
+//                    observer.on(.Next("1"))
+//                    observer.onError(RxError.ArgumentOutOfRange)
+//                    return NopDisposable.instance
+//                }
+//            }
+//            .bindTo(a.rx_text)
+//            .addDisposableTo(disposeBag)
+
     }
 }
