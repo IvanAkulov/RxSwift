@@ -15,6 +15,8 @@
 		07A5C3DB1B70B703001EFE5C /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5C3DA1B70B703001EFE5C /* CalculatorViewController.swift */; };
 		07A5C3DC1B70B703001EFE5C /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5C3DA1B70B703001EFE5C /* CalculatorViewController.swift */; };
 		07E3C2331B03605B0010338D /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3C2321B03605B0010338D /* Dependencies.swift */; };
+		22874A991CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22874A981CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift */; };
+		22874A9A1CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22874A981CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift */; };
 		8479BC711C3BCB9800FB8B54 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479BC701C3BCB9800FB8B54 /* ImagePickerController.swift */; };
 		8479BC721C3BDAD400FB8B54 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479BC701C3BCB9800FB8B54 /* ImagePickerController.swift */; };
 		B1604CB51BE49F8D002E1279 /* DownloadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1604CB41BE49F8D002E1279 /* DownloadableImage.swift */; };
@@ -636,6 +638,7 @@
 		075F130F1B4E9D5A000D7861 /* APIWrappersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWrappersViewController.swift; sourceTree = "<group>"; };
 		07A5C3DA1B70B703001EFE5C /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		07E3C2321B03605B0010338D /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dependencies.swift; path = Examples/Dependencies.swift; sourceTree = "<group>"; };
+		22874A981CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerEditPartialUpdate.swift; path = TablViewEditPartialUpdate/TableViewControllerEditPartialUpdate.swift; sourceTree = "<group>"; };
 		8479BC701C3BCB9800FB8B54 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		B1604CB41BE49F8D002E1279 /* DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadableImage.swift; sourceTree = "<group>"; };
 		B1604CC81BE5BBFA002E1279 /* UIImageView+DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadableImage.swift"; sourceTree = "<group>"; };
@@ -1033,6 +1036,14 @@
 			path = Calculator;
 			sourceTree = "<group>";
 		};
+		22874A831CDC2D0400FB7EAF /* TableViewEditPartialUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				22874A981CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift */,
+			);
+			name = TableViewEditPartialUpdate;
+			sourceTree = "<group>";
+		};
 		8479BC6F1C3BCB4800FB8B54 /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -1244,6 +1255,7 @@
 				C822B1E51C14E7120088A01A /* SimpleTableViewExampleSectioned */,
 				C864BAD01C3332F10083833C /* TableViewWithEditingCommands */,
 				C8984CCD1C36BC3E001E4272 /* TableViewPartialUpdates */,
+				22874A831CDC2D0400FB7EAF /* TableViewEditPartialUpdate */,
 				C86E2F301AE5A0CA00C31024 /* WikipediaImageSearch */,
 				075F130E1B4E9D10000D7861 /* APIWrappers */,
 				07A5C3D91B70B6B8001EFE5C /* Calculator */,
@@ -2185,6 +2197,7 @@
 				C89464EA1BC6C2B00055219D /* Zip.swift in Sources */,
 				C8CC3F561C95D17000ABA17E /* RxTableViewSectionedReloadDataSource.swift in Sources */,
 				C8CC3F091C95CB5300ABA17E /* UIApplication+Rx.swift in Sources */,
+				22874A9A1CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift in Sources */,
 				C8CC3EEB1C95CB5300ABA17E /* DeallocObservable.swift in Sources */,
 				C8CC3EE71C95CB5300ABA17E /* Logging.swift in Sources */,
 				C89464E51BC6C2B00055219D /* Throttle.swift in Sources */,
@@ -2487,6 +2500,7 @@
 				C864BADB1C3332F10083833C /* String+extensions.swift in Sources */,
 				C822B1E71C14E7250088A01A /* SimpleTableViewExampleSectionedViewController.swift in Sources */,
 				C83367251AD029AE00C668A7 /* ImageService.swift in Sources */,
+				22874A991CDC2D6D00FB7EAF /* TableViewControllerEditPartialUpdate.swift in Sources */,
 				C86E2F471AE5A0CA00C31024 /* WikipediaSearchResult.swift in Sources */,
 				C8984CD11C36BC3E001E4272 /* NumberCell.swift in Sources */,
 				C8B290DD1C959D2900E923D0 /* UI+SectionedViewType.swift in Sources */,
