@@ -5,5 +5,7 @@
         <page name='With ShareReplay'/>
         <page name='From Main Thread'/>
         <page name='From Queue'/>
+        <page name='test'/>
+        <page name='structTest'/>
     </pages>
 </playground>
